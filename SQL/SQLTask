@@ -1,0 +1,21 @@
+Tables 
+
+Employee:
+	[Id] AS INT;
+	[FirstName] AS NVARCHAR(MAX);
+	[LastName] Name AS NVARCHAR(MAX);
+	[BirthDay] AS DATETIME;
+
+Invoice:
+	[Id] AS INT;
+	[Year] AS INT;
+	[Period] AS NVARCHAR(4);
+	[EmployeeId] AS INT;
+	[Department] AS NVARCHAR(MAX);
+	[InvoiceAmount] AS DECIMAL(9,2);
+
+1) Please display employee id, full name(FirstName + LastName), Department and Salary with the highest salary;
+
+2) Please display employee full name(FirstName + LastName), Department and Salary with the highest salary for each period across 2019-2020 year;
+
+3)Please display employee id, full name(FirstName + LastName), Department and Salary for 2020 year. Also please add 10% bonus for best 10 employee and 5% bonus for employee between 10 and 20;
